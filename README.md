@@ -1,1 +1,1 @@
-# vehicle-app
+# vehicle-rental-app
