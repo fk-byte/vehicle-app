@@ -16,10 +16,9 @@ A simple and fast web application for managing vehicle rentals. Users can add/re
 - **Storage**: LocalStorage (browser-based, data is device-specific)
 
 ## Installation
-
 To run the application locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/fk-byte/vehicle-app.git
+   cd vehicle-app
