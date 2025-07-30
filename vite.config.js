@@ -1,10 +1,17 @@
+```javascript
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  css: {
-    postcss: './postcss.config.js',
+  esbuild: {
+    loader: { '.js': 'jsx' },
   },
-  publicDir: 'public', // Explicitly set public directory
+  server: {
+    allowedHosts: [
+      'dnx5yv-5173.csb.app', // Spezifischer Host für deine Sandbox
+      '*.csb.app', // Erlaubt alle CodeSandbox-Hosts (optional, für Flexibilität)
+    ],
+  },
 });
+```
